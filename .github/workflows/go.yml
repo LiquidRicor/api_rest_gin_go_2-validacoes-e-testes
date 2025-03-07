@@ -10,13 +10,10 @@ on:
     branches: [ "Main" ]
 
 Jobs:
-<<<<<<< HEAD
   
   ci:
-=======
->>>>>>> dc0e478daf82fc761c3e057d462ba658810dcd6d
 
-  ci:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
